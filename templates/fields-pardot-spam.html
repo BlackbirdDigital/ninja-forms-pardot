@@ -1,0 +1,13 @@
+<script id="tmpl-nf-field-pardot-spam" type="text/template">
+	<div style="position: absolute; left: -9999px; top: -9999px;">
+		<label for="nf-field-{{{ data.id }}}">Please leave this field blank</label>
+		<input
+			type="text"
+			id="nf-field-{{{ data.id }}}"
+			name="nf-field-{{{ data.id }}}"
+			class="{{{ data.renderClasses() }}} nf-element"
+			value="{{{ data.value }}}"
+			{{{ data.renderPlaceholder() }}}
+		/>
+	</div>
+</script>
