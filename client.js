@@ -21,7 +21,7 @@ function NFPardot() {
 
 		initCookie: function (e) {
 			if (e.model.get("type") !== "pardot-cookie") return;
-			if (!piAId) return;
+			if (typeof piAId === "undefined") return;
 
 			//console.log('found field', e.model);
 			//console.log('found piAId', piAId);
