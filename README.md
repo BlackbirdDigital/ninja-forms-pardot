@@ -1,4 +1,4 @@
-# Ninja Forms Pardot
+# Pardot Fields for Ninja Forms
 
 This plugin adds two fields, "Pardot Cookie" and "Pardot Spam".
 
